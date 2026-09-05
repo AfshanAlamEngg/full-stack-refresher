@@ -5,5 +5,6 @@ List of Todos
     - Need VS Code
 
 - Need for TypeScript
+    - a language and a compiler:
 
 - OOPs concepts
