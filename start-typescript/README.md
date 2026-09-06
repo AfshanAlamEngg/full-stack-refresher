@@ -8,3 +8,7 @@ List of Todos
     - a language and a compiler:
 
 - OOPs concepts
+    - Encapsulation
+    - Abstraction
+    - Inheritance
+    - Polymorphism
