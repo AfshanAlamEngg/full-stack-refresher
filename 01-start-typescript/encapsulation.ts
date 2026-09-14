@@ -1,7 +1,7 @@
 class Encapsulation {
-    private name: string = '';
+    private name: string;
 
-    consctructor(name: string){
+    constructor(name: string){
         this.name = name;
     }
 
@@ -15,6 +15,6 @@ class Encapsulation {
 
 }
 
-const encap = new Encapsulation();
+const encap = new Encapsulation('Afshan Alam');
 console.log(encap.getName);
 

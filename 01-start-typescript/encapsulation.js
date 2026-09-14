@@ -1,25 +1,17 @@
-var Encapsulation = /** @class */ (function () {
-    function Encapsulation() {
-        this.name = '';
-    }
-    Encapsulation.prototype.consctructor = function (name) {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Encapsulation {
+    name;
+    constructor(name) {
         this.name = name;
-    };
-    Object.defineProperty(Encapsulation.prototype, "getName", {
-        get: function () {
-            return this.name;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Encapsulation.prototype, "setName", {
-        set: function (name) {
-            this.name = name;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    return Encapsulation;
-}());
-var encap = new Encapsulation();
+    }
+    get getName() {
+        return this.name;
+    }
+    set setName(name) {
+        this.name = name;
+    }
+}
+const encap = new Encapsulation('Afshan Alam');
 console.log(encap.getName);
+//# sourceMappingURL=encapsulation.js.map
