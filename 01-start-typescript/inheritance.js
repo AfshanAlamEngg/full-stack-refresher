@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -13,6 +14,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+exports.__esModule = true;
+exports.Bicycle = exports.Item = void 0;
 var Item = /** @class */ (function () {
     function Item() {
         this.id = '';
@@ -24,6 +27,7 @@ var Item = /** @class */ (function () {
     };
     return Item;
 }());
+exports.Item = Item;
 var Bicycle = /** @class */ (function (_super) {
     __extends(Bicycle, _super);
     function Bicycle() {
@@ -36,6 +40,7 @@ var Bicycle = /** @class */ (function (_super) {
     };
     return Bicycle;
 }(Item));
+exports.Bicycle = Bicycle;
 var bicycle = new Bicycle();
 bicycle.id = 'B001';
 bicycle.description = 'Mountain Bike';

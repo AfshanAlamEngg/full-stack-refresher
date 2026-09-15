@@ -1,4 +1,6 @@
-class Item {
+export {};
+
+export class Item {
     id: string = '';
     description: string = '';
     price: number = 0;
@@ -8,7 +10,7 @@ class Item {
     }
 }
 
-class Bicycle extends Item {
+export class Bicycle extends Item {
     wheelCount: number = 0;
 
     getWheelCount(): number {
