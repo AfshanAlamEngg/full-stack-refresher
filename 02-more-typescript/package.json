@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^7.0.2"
+  },
+  "name": "02-more-typescript",
+  "version": "1.0.0",
+  "description": "List of Todos",
+  "main": "shape.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
