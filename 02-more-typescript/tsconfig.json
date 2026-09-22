@@ -104,6 +104,7 @@
   },
   "files": [
     "./shape.ts",
-    "./any.ts"
+    "./any.ts",
+    "./intersection.ts"
   ],
 }
