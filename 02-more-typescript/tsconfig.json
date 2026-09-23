@@ -105,6 +105,7 @@
   "files": [
     "./shape.ts",
     "./any.ts",
-    "./intersection.ts"
+    "./intersection.ts",
+    "./union.ts"
   ],
 }
