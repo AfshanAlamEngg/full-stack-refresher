@@ -106,6 +106,7 @@
     "./shape.ts",
     "./any.ts",
     "./intersection.ts",
-    "./union.ts"
+    "./union.ts",
+    "./literal.ts"
   ],
 }
