@@ -107,6 +107,7 @@
     "./any.ts",
     "./intersection.ts",
     "./union.ts",
-    "./literal.ts"
+    "./literal.ts",
+    "./functionReturn.ts",
   ],
 }
